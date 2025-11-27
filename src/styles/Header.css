@@ -1,0 +1,49 @@
+/* src/styles/Header.css */
+/* src/styles/Header.css */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #ff6600;  /* Change this to any color you want */
+  padding: 10px 20px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+.header .logo a {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+  text-decoration: none;
+}
+
+.header .search-bar {
+  display: flex;
+  flex: 1;
+  margin: 0 20px;
+}
+
+.header .search-bar input {
+  flex: 1;
+  padding: 5px 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px 0 0 5px;
+}
+
+.header .search-bar button {
+  padding: 5px 15px;
+  border: none;
+  background: #007bff;
+  color: white;
+  cursor: pointer;
+  border-radius: 0 5px 5px 0;
+}
+
+.header nav a {
+  margin-left: 15px;
+  text-decoration: none;
+  color: #333;
+}
+
+.header nav a.active {
+  font-weight: bold;
+  color: #007bff;
+}

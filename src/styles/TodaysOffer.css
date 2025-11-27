@@ -1,0 +1,19 @@
+/* src/styles/TodaysOffer.css */
+.todays-offer {
+  background: #fff8e1;  /* Light orange background */
+  padding: 20px;
+  border-radius: 8px;
+  margin-top: 20px;    /* Space below banner */
+}
+
+.offer-title {
+  color: #ff6600;
+  font-weight: bold;
+  margin-bottom: 15px;
+  font-size: 1.5rem;
+}
+
+.offer-cards .card {
+  border: none;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
