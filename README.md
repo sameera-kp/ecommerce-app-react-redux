@@ -52,5 +52,5 @@ Slices & Reducers: Organized state logic using Redux Slices.
 Thunks: Managed asynchronous API calls for product fetching.
 
 Persistence: (Optional: mention if you used Redux Persist) Basic local storage integration for cart data.
----
+
 Developed by Sameera KP
